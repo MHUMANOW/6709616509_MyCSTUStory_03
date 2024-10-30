@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.body1 {
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #CCDBDC;
+}
+
+header {
+    background-color: #003249;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 15px;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #007EA7;
+    padding: 10px;
+    float: left;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 15px;
+    padding-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 380;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(238, 182, 79);
+}
+
+main {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+.AboutMe {
+    background-color: #80CED7;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-bottom: 150px;
+    display: block;
+    clear: both;
+}
+
+.AboutMe h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.AboutMe p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#mejpg {
+    width: 420px;
+    height: 460px;
+    padding-top: 100px;
+    padding-left: 50px;
+    clear: both;
+}
+
+.Activity {
+    background-color: #80CED7;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    height: 420px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.Activity h2 {
+    text-align: center;
+}
+
+.Activity p {
+    line-height: 1.6;
+    text-align: left;
+}
+
+#playbutt {
+    width: 32px;
+    height: 32px;
+    padding-left: 5px;
+    cursor: pointer;
+    position: static;
+}
+
+#trrlogo {
+    width: 100px;
+    height: 32px;
+    position: static;
+    bottom: 440px;
+    left: 580px;
+    cursor: pointer;
+}
+
+#ckplogo {
+    width: 100px;
+    height: 32px;
+    position: static;
+    bottom: 400px;
+    left: 600px;
+    cursor: pointer;
+}
+
+.video {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+footer {
+    background-color: #9AD1D4;
+    width: 100%;
+    padding: 5px;
+    clear: both;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 15px;
+    padding-left: 10%;
+}
+
+#emailpng {
+    width: 40px;
+    height: 40px;
+}
+
+#igpng {
+    width: 40px;
+    height: 40px;
+}
+
+#fbpng {
+    width: 40px;
+    height: 40px;
+}
+
+#tlppng {
+    width: 40px;
+    height: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px 270px;
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid #333;
+}
+
+table th {
+    background-color: #37a8b4;
+    color: white;
+    padding: 10px;
+}
+
+table tr td {
+    background-color: #ffffff;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.row1 {
+    width: 200px;
+    text-align: center;
+}
+
+.cell1 {
+    width: 500px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.row2 {
+    text-align: center;
+}
+
+.cell2 {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.row3 {
+    text-align: center;
+}
+
+.cell3 {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.row4 {
+    text-align: center;
+}
+
+.cell4 {
+    text-align: justify;
+    line-height: 1.6;
+}
