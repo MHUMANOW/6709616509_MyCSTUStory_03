@@ -3,87 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CSTU Story</title>
     <link rel="stylesheet" href="mystyle.css">
+    <title>My CSTU Story</title>
 </head>
-<body class="body1">
+<body>
+    
     <header>
         <h1>👾 My CSTU Story 👾</h1>
     </header>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="myjourney.html">Journey</a></li>
-            <li><a href="myfuture.html">Future</a></li>
-        </ul>
+
+    <nav class="grid-container">
+        <a href="index.html">Homepage</a>
+        <a href="myjourney.html">Journey</a>
+        <a href="myfuture.html">Future</a>
     </nav>
+
+    <div class="container">
+        <div class="row">
+            <section class="main-content">
+                <h2>About Me</h2>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Hi. My name is <strong>Songpol Anongsathaporn</strong>, but most people call me "Keb". I am 19 years old and currently pursuing a degree in Computer Science at the Faculty of Science and Technology, Thammasat University.
+                    With a passion for technology and problem-solving, I am excited to explore the vast world of computing and contribute to innovations that can make a difference.</p>
+                
+                    <div class="responsive-image">
+                        <img src="resources/me.jpg" alt="Mypic">
+                    </div>
     
-    <main>
-        <section class="AboutMe">
-            <h2>About Me:</h2>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;Hi. My name is <strong>Songpol Anongsathaporn</strong>, but most people call me "Keb". I am 19 years old and currently pursuing a degree in Computer Science at the Faculty of Science and Technology, Thammasat University.
-                With a passion for technology and problem-solving, I am excited to explore the vast world of computing and contribute to innovations that can make a difference.</p>
-        </section>
+                    <div class="responsive-video">
+                        <video controls>
+                            <source src="resources/intro.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
 
-        <section class="Media">
-            <img src="resources/me.jpg", id="mejpg">
-        </section>
+            </section>
 
-        <section class="Activity">
-            <h2>Activity:</h2>
-            <p>- listen to my fav Artist!
-                <a href="https://open.spotify.com/artist/0AvGycOEDZTaBFLCaiGd9S?si=EKSH9_maQwWr2q8bQbMmeg">
-                <img src="resources/play-button.png", id="playbutt">
-                </a><br>
-                - learn new tech<br>
-                - sport: table tennis, basketball<br>
-                - game<br>
-                &nbsp;&nbsp;- terraria
-                <a href="https://store.steampowered.com/app/105600/Terraria/">
-                    <img src="resources/terraria.png", id="trrlogo">
-                </a><br>
-                &nbsp;&nbsp;- core keeper
-                <a href="https://store.steampowered.com/app/1621690/Core_Keeper/">
-                    <img src="resources/corekeeper.png", id="ckplogo">
-                </a>
-            </p>
-        </section>
+            <aside class="sidebar">
+                <h2>Activity</h2>
+                <p>- listen to my fav Artist!
+                    - learn new tech<br>
+                    - sport: table tennis, basketball<br>
+                    - game<br>
+                    &nbsp;&nbsp;- terraria<br>
+                    &nbsp;&nbsp;- core keeper
+            </aside>
+        </div>
+    </div>
 
-        <section class="video">
-            <video src="resources/intro.mp4", width="420px", height="460px", controls>
-                <p>
-                    Your browser doesn't support HTML video. Here is a
-                    <a href="resources/intro.mp4">
-                        link to the video</a> instead.
-                </p>
-            </video>
-        </section>
-    </main>
-
-    <footer>
-        <ul>
-            <li>
-                <a href="mailto:songpol.ano@dome.tu.ac.th">
-                    <img src="resources/email.png", id="emailpng">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/__.kel3z__/">
-                    <img src="resources/instagram.png", id="igpng">
-                </a>
-            </li>
-            <li>
-                <a href="https://web.facebook.com/kebza.sathiansatitwong?locale=th_TH">
-                    <img src="resources/facebook.png", id="fbpng">
-                </a>
-            </li>
-            <li>
-                <a href="tel:+66902152323">
-                    <img src="resources/telephone.png", id="tlppng">
-                </a>
-            </li>
-        </ul>
-    </footer>
 </body>
 </html>
